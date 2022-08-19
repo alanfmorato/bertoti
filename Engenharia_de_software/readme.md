@@ -9,21 +9,21 @@ A frase remete entre a diferença entre programar e praticar a engenharia de sof
 
 ## Contexto
 
-Um empresa chamada Pro5tech quer criar um sistema em desktop onde ela conseguirá cadastrar vagas de emprego que estão disponíveis em sua empresa. Ela precisa de uma interface onde consiga colocar os seguintes requisitos de vagas:
+Um empresa chamada Pro4tech quer criar um sistema em desktop onde ela conseguirá cadastrar vagas de emprego que estão disponíveis em sua empresa. Ela precisa de uma interface onde consiga colocar os seguintes:
 
 **Cadastro da vaga - Empresa**
 
+
 - [ ] Nome da vaga
-- [ ] Fomação
+- [ ] Rotina
+- [ ] Formação
 - [ ] Experiência
 - [ ] Regime de trabalho
-- [ ] Requisitos
-
-![image](https://user-images.githubusercontent.com/102003274/185717592-daa53648-5a91-467a-8032-66b42b7cf84d.png)
-
+- [ ] Conhecimentos
+- [ ] Benefícios
 
 
-**Preenchimento da vaga - Cadidato**
+**Preenchimento da vaga - Candidato**
 
 - [ ] Nome
 - [ ] E-mail
@@ -33,15 +33,23 @@ Um empresa chamada Pro5tech quer criar um sistema em desktop onde ela conseguir�
 - [ ] Currículo
 - [ ] Indicação
 
+**Avaliação do candidato - Empresa**
 
-## Requisitos funcionais
+- [ ] Aprovado/Reprovado
+- [ ] Feedback
+- [ ] Recrutador responsável
 
 *Story cards*
 - Cadastrar a vaga com os campos acima
 - Buscar os candidatos por vaga
 - Buscar os candidatos por nome
+- Buscar aprovação por recrutador
+- Report com a quantidade de aprovações/reprovações por recrutador
+- Report com a porcentagem de aprovação e reprovação
+- Ter um user para o RH cadastrar a vaga
+- Ter um user para o candidato se cadastrar
+- Candidato precisa ver o status e feedback
 
-![image](https://user-images.githubusercontent.com/102003274/185717493-23e6c545-59f3-4815-b463-3b454eb467ae.png)
 
 
 
