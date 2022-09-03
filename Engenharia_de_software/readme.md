@@ -93,7 +93,7 @@ Um empresa chamada Pro4tech quer criar um sistema em desktop onde ela conseguir√
 
 
 *Diagrama de classes*
-- Vagas
+
 
 
 
