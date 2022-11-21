@@ -5,48 +5,60 @@ Titus Winters, Software Engineering at Google
 A frase remete entre a diferença entre programar e praticar a engenharia de software. De fato programar por programar pode trazer problemas para sua solução criada, precisamos pensar em todo o fluxo que é necessário após o funcionamento do código, como por exemplo manutenção, qualidade e modificações.
 
 
+# Ciclo de Vida do Desenvolvimento de Software
+
+## Locadora de Filmes
+## Requisitos
+
+### Funcionais
+  - Cadastro de filmes;
+  - Cadastro das descrições dos filmes: titulo, ano de lançamento, diretores, atores, sinopse, duração e genero ; 
+  - Cadastro do item: data de aquisição e número de série;
+
+### Casos de Uso
+<div align="center">
+<img src="https://user-images.githubusercontent.com/108765052/202880938-d954877e-c3d9-44e1-952d-acd0aba40028.jpeg" width="1250px" />
 </div>
 
-## Contexto
+### User Stories
+<div align="center">
+<img src="https://user-images.githubusercontent.com/108765052/202880940-daa898a5-c1ed-47fd-ba11-9ec2aa719353.jpeg" width="650px" />
+</div>
 
-Uma locadora de filmes deseja automatizar seu sistema de cadastro e busca de filmes, por isso contratou você parar criar um sistema que satisfaça os requisitos descritos a seguir
+### Diagrama de sequência
+<div align="center">
+<img src="https://user-images.githubusercontent.com/108765052/202881454-89506009-457d-48e1-b108-49765ba70886.jpeg" width="650px" />
+</div>
 
-**Usuários**
+### Não-funcionais:
+  - Separação de Interesses: Implementar o modelo clássico Apresentação/Negócio/Repositório, o bem conhecido modelo em 3 camadas, onde cada pacote, projeto, assembly tem uma responsabilidade;
+  - Acesso em diferentes plataformas;
 
-- [ ] Cliente
-- [ ] Funcionário
-
-**Requisitos Funcionais**
-- Cadastro de filmes
-- Busca de filmes por genero
-- Busca de filmes por ano
-- Busca de filmes por classificação
-- Busca de filmes por nome
-
-
-## Casos de uso
-![image](https://user-images.githubusercontent.com/102003274/196293779-7aa50391-3111-4d00-8d3d-5a98e494e3ba.png)
-
-## User Stories
-
-- Como funcionário desejo cadastrar o filme para que os clientes consigam buscar
-- Como cliente desejo buscar o filme por genero
-- Como cliente desejo buscar o filme por ano
-- Como cliente desejo buscar o filme por classificação
-- Como cliente desejo buscar o filme por nome
-
-## Não funcionais
-
-- Separação de Interesses: Implementar o modelo clássico Apresentação/Negócio/Repositório, o bem conhecido modelo em 3 camadas, onde cada pacote, projeto, assembly tem uma responsabilidade;
-- Acesso em diferentes plataformas;
-- Interface de simples acesso.
-
-## Diagrama de classes UML
-
-![image](https://user-images.githubusercontent.com/102003274/196299421-a93d0d2a-12ec-4519-b4b1-b16cc0ad6acb.png)
+### Diagrama de Classes UML
+<div align="center">
+<img src="https://user-images.githubusercontent.com/108765052/202880933-8f50cab3-1f95-48c9-8209-b10b04506dcd.jpeg" width="1250px" />
+</div>
 
 
+### Códigos 
+#### Locadora 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/108765052/202881391-8e0c876e-c6c5-4292-b450-af2a3def892d.jpeg" width="1250px" />
+</div>
 
+### Filme
+<div align="center">
+<img src="https://user-images.githubusercontent.com/108765052/202881389-30fbf099-80bc-473e-b517-2c87e72be12c.jpeg" width="1250px" />
+</div>
 
+### Especificacao
+<div align="center">
+<img src="https://user-images.githubusercontent.com/108765052/202881388-1fd08a5d-1dd4-4825-ac5d-d06ca39701c2.jpeg" width="1250px" />
+</div>
+
+### Item
+<div align="center">
+<img src="https://user-images.githubusercontent.com/108765052/202881390-c9c16cf7-e575-446b-b72f-01adbf739582.jpeg" width="1250px" />
+</div>
 
 
